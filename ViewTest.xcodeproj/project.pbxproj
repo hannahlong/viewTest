@@ -19,6 +19,7 @@
 		0B7E73DB19BFC12E00CA1AF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7E73C319BFC12D00CA1AF2 /* UIKit.framework */; };
 		0B7E73E319BFC12E00CA1AF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E73E119BFC12E00CA1AF2 /* InfoPlist.strings */; };
 		0B7E73E519BFC12E00CA1AF2 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E73E419BFC12E00CA1AF2 /* ViewTestTests.m */; };
+		0B7E73F019BFC3E100CA1AF2 /* HLSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E73EF19BFC3E100CA1AF2 /* HLSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		0B7E73E019BFC12E00CA1AF2 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		0B7E73E219BFC12E00CA1AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B7E73E419BFC12E00CA1AF2 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		0B7E73EE19BFC3E100CA1AF2 /* HLSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSimpleView.h; sourceTree = "<group>"; };
+		0B7E73EF19BFC3E100CA1AF2 /* HLSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				0B7E73CE19BFC12E00CA1AF2 /* HLAppDelegate.h */,
 				0B7E73CF19BFC12E00CA1AF2 /* HLAppDelegate.m */,
+				0B7E73EE19BFC3E100CA1AF2 /* HLSimpleView.h */,
+				0B7E73EF19BFC3E100CA1AF2 /* HLSimpleView.m */,
 				0B7E73D119BFC12E00CA1AF2 /* Images.xcassets */,
 				0B7E73C619BFC12E00CA1AF2 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7E73D019BFC12E00CA1AF2 /* HLAppDelegate.m in Sources */,
+				0B7E73F019BFC3E100CA1AF2 /* HLSimpleView.m in Sources */,
 				0B7E73CC19BFC12E00CA1AF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
